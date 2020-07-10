@@ -48,8 +48,4 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
-<<<<<<< HEAD
   condition: succeeded()
-=======
-  condition: succeeded()
->>>>>>> fe2b63f074bae140c9b8efd8754ec22617bb1783
